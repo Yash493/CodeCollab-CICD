@@ -7,6 +7,7 @@
 @layer components {
     .view-title {
         @apply mb-2 w-full border-b pb-2 text-start text-lg;
+        border-color: #9A4DFF; /* Purple for border */
     }
 }
 
@@ -16,8 +17,8 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 
-    --sb-track-color: #3d404a;
-    --sb-thumb-color: #e1e1ffb3;
+    --sb-track-color: #FFF; /* Orange for scrollbar track */
+    --sb-thumb-color: #4D8EFF; /* Blue for scrollbar thumb */
     --sb-size: 6px;
 }
 
