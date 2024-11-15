@@ -1,4 +1,4 @@
-import illustration from "@/assets/illustration.svg"
+
 import FormComponent from "@/components/forms/FormComponent"
 import logo2 from "@/assets/logo2.png"
 // import Footer from "@/components/common/Footer";
