@@ -29,16 +29,16 @@ const FormComponent = () => {
     }
 
     const validateForm = () => {
-        if (currentUser.username.trim().length === 0) {
+        if (currentUser.username.length === 0) {
             toast.error("Enter your username")
             return false
-        } else if (currentUser.roomId.trim().length === 0) {
+        } else if (currentUser.roomId.length === 0) {
             toast.error("Enter a room id")
             return false
-        } else if (currentUser.roomId.trim().length < 5) {
+        } else if (currentUser.roomId.length < 5) {
             toast.error("ROOM Id must be at least 5 characters long")
             return false
-        } else if (currentUser.username.trim().length < 3) {
+        } else if (currentUser.username.length < 3) {
             toast.error("Username must be at least 3 characters long")
             return false
         }
@@ -111,7 +111,7 @@ const FormComponent = () => {
                 />
                 <button
                     type="submit"
-                    className="mt-2 w-full rounded-md bg-primary px-8 py-3 text-lg font-semibold text-black"
+                    className="mt-2 w-full rounded-md bg-purple-500 px-8 py-3 text-lg font-semibold text-black"
                 >
                     Join
                 </button>
