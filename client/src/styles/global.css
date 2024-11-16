@@ -17,7 +17,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 
-    --sb-track-color: ; /* Orange for scrollbar track */
+    --sb-track-color: #4D8EFF; /* Orange for scrollbar track */
     --sb-thumb-color: #4D8EFF; /* Blue for scrollbar thumb */
     --sb-size: 6px;
 }
